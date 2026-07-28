@@ -1,0 +1,23 @@
+{
+  "name": "elm-translate-icu",
+  "version": "1.0.0",
+  "description": "Generate a type-safe Elm module from ICU MessageFormat translations",
+  "bin": {
+    "elm-translate-icu": "bin/elm-translate-icu.js"
+  },
+  "files": [
+    "bin/",
+    "worker.js"
+  ],
+  "scripts": {
+    "build": "elm make src/Worker.elm --optimize --output=worker.js"
+  },
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "elm",
+    "icu",
+    "i18n",
+    "messageformat",
+    "translation"
+  ]
+}
